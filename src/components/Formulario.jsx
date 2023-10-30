@@ -29,8 +29,9 @@ const Formulario = ({setMensaje}) => {
     <>
     <form className="formulario" onSubmit={handleSubmit}>
         <div className="form-group">
-            <label>Nombre</label>
+            <label></label>
             <input
+            placeholder="Nombre"
             type="text"
             name="nombre"
             className="form-control"
@@ -39,8 +40,9 @@ const Formulario = ({setMensaje}) => {
             />
         </div>
     <div className="form-group">
-        <label>Email</label>
+        <label></label>
         <input
+        placeholder="Email"
         type="email"
         name="email"
         className="form-control"
