@@ -56,3 +56,7 @@ body{
   height: 40px;
   margin: 10px; 
 }
+.color{
+  background-color:rgba(197, 22, 5, 0.2);
+  color:#A73121;
+}

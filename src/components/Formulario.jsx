@@ -14,7 +14,7 @@ const Formulario = ({setMensaje}) => {
         } else if (password !== password2){
             setMensaje('La contraseña no coincide');
         }else {
-            setMensaje('¡Hola! Registro exitoso');
+            setMensaje ('¡Hola! Registro exitoso');
         }
     };
     const isValidEmail = (email) =>{
